@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
 
             {/* Navbar with Logo and Links */}
-            <div className="grid grid-cols-2 items-center bg-neutral-600 p-4 text-white sticky top-0 shadow-md z-10 px-20">
+            <div className="grid grid-cols-2 items-center bg-neutral-700 p-4 text-white sticky top-0 shadow-md z-10 px-20">
                 
                 {/* Left side - Logo */}
                 <div className="text-2xl font-bold">

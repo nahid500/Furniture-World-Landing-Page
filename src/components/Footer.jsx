@@ -5,7 +5,7 @@ import logo from '../../public/vite.svg';
 
 const Footer = () => {
     return (
-        <footer className="bg-neutral-500 py-6 text-white mx-12 rounded-t-full">
+        <footer className="bg-neutral-700 py-6 text-white mx-12 rounded-t-full">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
                 
                 {/* Logo & Contact */}
