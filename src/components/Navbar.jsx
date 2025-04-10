@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+
 const Navbar = () => {
     return (
         <div>
             {/* Social Media Icons */}
-            <div className="bg-neutral-300 justify-end flex gap-5 text-center p-1 px-6">
-                <p className="text-red-800"> || Latest Offers! ||</p>
+            <div className="bg-gray-300 justify-end flex gap-5 text-center p-1 px-6">
+                <p className="text-red-600"> || Latest Offers! ||</p>
                 <p className="text-black">Find us at:</p>
                 <FontAwesomeIcon icon={faFacebook} size="x" className="text-black pt-1 hover:text-gray-300 cursor-pointer" />
                 <FontAwesomeIcon icon={faInstagram} size="x" className="text-black pt-1 hover:text-gray-300 cursor-pointer" />

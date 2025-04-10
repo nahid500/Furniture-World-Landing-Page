@@ -5,7 +5,7 @@ import logo from '../../public/vite.svg';
 
 const Footer = () => {
     return (
-        <footer className="bg-neutral-500 py-6 text-white mx-12">
+        <footer className="bg-neutral-500 py-6 text-white mx-12 rounded-t-full">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
                 
                 {/* Logo & Contact */}
@@ -25,10 +25,6 @@ const Footer = () => {
                         <li className="hover:underline cursor-pointer">
                             {/* <Link to="/about-us">About Us</Link> */}
                             About Us
-                        </li>
-                        <li className="hover:underline cursor-pointer">
-                            {/* <Link to="/career">Career</Link> */}
-                            Career
                         </li>
                         <li className="hover:underline cursor-pointer">
                             {/* <Link to="/contact-us">Contact Us</Link> */}
